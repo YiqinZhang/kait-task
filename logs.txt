@@ -1,0 +1,55 @@
+STEP-QONTRACT-RECONCILE-PREPARE
+
+STEP-QONTRACT-RECONCILE-CONFIG
+
+STEP-QONTRACT-RECONCILE
+
+[2025-07-19 17:51:53] [INFO] [gql.py:init_from_config:391] - using gql endpoint https://app-interface.apps.rosa.appsrep09ue1.03r5.p3.openshiftapps.com/graphqlsha/50b489c6970f0ab0df030deab36d0ab906e0f4565bf19593895e356a1c65c9ab
+[2025-07-19 17:51:55] [INFO] [gql.py:init_from_config:391] - using gql endpoint https://app-interface.apps.rosa.appsrep09ue1.03r5.p3.openshiftapps.com/graphqlsha/50b489c6970f0ab0df030deab36d0ab906e0f4565bf19593895e356a1c65c9ab
+[2025-07-19 17:52:06] [INFO] [saasherder.py:_validate_promotion:2051] - Promotion data is missing; rely on the success state only
+[2025-07-19 17:52:06] [INFO] [openshift_base.py:apply:397] - ['apply', 'privileged=False', 'hivei01ue1', 'e2e-testing', 'Job', 'osde2e-osd-example-operator-44482e3-32rrist']
+[2025-07-19 17:52:07] [INFO] [openshift_base.py:delete:574] - ['delete', 'privileged=False', 'hivei01ue1', 'e2e-testing', 'Job', 'osde2e-osd-example-operator-28bf9aa-ry4w32d']
+[2025-07-19 17:52:07] [INFO] [openshift_base.py:follow_logs:1307] - ['collecting', 'hivei01ue1', 'e2e-testing', 'Job', 'osde2e-osd-example-operator-44482e3-32rrist']
+[2025-07-19 17:52:07] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:08] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:10] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:13] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:17] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:22] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:28] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:35] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:43] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:52:53] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:53:03] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:53:14] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:53:26] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:53:39] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:53:53] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:54:08] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:54:24] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:54:41] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:54:59] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:55:18] [INFO] [oc.py:wait_for_job_running:714] - waiting for job to run: osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:55:18] [ERROR] [openshift_saas_deploy.py:run:271] - osde2e-osd-example-operator-44482e3-32rrist
+[2025-07-19 17:55:18] [INFO] [openshift_base.py:validate_realized_data:1198] - ['validating', 'hivei01ue1', 'e2e-testing', 'Job', 'osde2e-osd-example-operator-44482e3-32rrist']
+[2025-07-19 17:55:18] [INFO] [openshift_base.py:validate_realized_data:1239] - Job osde2e-osd-example-operator-44482e3-32rrist has not succeeded
+[2025-07-19 17:55:18] [INFO] [openshift_base.py:validate_realized_data:1242] - Job conditions are: [{'type': 'FailureTarget', 'status': 'True', 'lastProbeTime': '2025-07-19T17:52:23Z', 'lastTransitionTime': '2025-07-19T17:52:23Z', 'reason': 'BackoffLimitExceeded', 'message': 'Job has reached the specified backoff limit'}, {'type': 'Failed', 'status': 'True', 'lastProbeTime': '2025-07-19T17:52:23Z', 'lastTransitionTime': '2025-07-19T17:52:23Z', 'reason': 'BackoffLimitExceeded', 'message': 'Job has reached the specified backoff limit'}]
+[2025-07-19 17:55:18] [INFO] [openshift_base.py:validate_realized_data:1243] - - lastProbeTime: '2025-07-19T17:52:23Z'
+  lastTransitionTime: '2025-07-19T17:52:23Z'
+  message: Job has reached the specified backoff limit
+  reason: BackoffLimitExceeded
+  status: 'True'
+  type: FailureTarget
+- lastProbeTime: '2025-07-19T17:52:23Z'
+  lastTransitionTime: '2025-07-19T17:52:23Z'
+  message: Job has reached the specified backoff limit
+  reason: BackoffLimitExceeded
+  status: 'True'
+  type: Failed
+
+[2025-07-19 17:55:18] [ERROR] [openshift_saas_deploy.py:run:276] - osde2e-osd-example-operator-44482e3-32rrist: BackoffLimitExceeded
+[2025-07-19 17:55:18] [INFO] [promotion_state.py:publish_promotion_data:111] - Uploaded success=False target_config_hash='32d02d47ab9984a9' saas_file='saas-oeo-e2e-test' check_in='2025-07-19 17:55:18.177419+00:00' has_succeeded_once=False to promotions_v2/osd-example-operator-sss-e2e-success-channel-int01/0f21339ba931c3007c376a3d4bc9dee76350cd0c/44482e34b37ade5cfc6c38f83e5d3aed5a3ac0df
+[2025-07-19 17:55:18] [INFO] [saasherder.py:publish_promotions:2173] - Commit 44482e34b37ade5cfc6c38f83e5d3aed5a3ac0df was published with success False to channel osd-example-operator-sss-e2e-success-channel-int01
+
+
+STEP-QONTRACT-RECONCILE-PUBLISH
